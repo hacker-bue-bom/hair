@@ -1,0 +1,1 @@
+PS C:\Users\Aluno\Desktop\cabelo> C:\Users\Aluno\Desktop\cabelo\dart-sass\sass.bat .\input.scss .\input.css
