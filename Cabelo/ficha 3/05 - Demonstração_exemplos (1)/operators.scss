@@ -1,0 +1,23 @@
+@use "sass:math";
+
+.container { width: 100%; }
+
+article[role="main"] {
+  float: left;
+  width: math.div(600px,960px) * 100%;
+}
+
+aside[role="complementary"] {
+  float: right;
+  width: math.div(300px,960px) * 100%;
+}
+
+p {
+  font: math.div(10px,8px);            
+  $width: 1000px;
+  width: math.div($width,2);            
+  width: math.div(round(1.5),2);        
+  height: math.div(500px,2);          
+  margin-left: 5px + math.div(8px,2px); 
+  font: (italic bold math.div(10px,8px)); 
+}
